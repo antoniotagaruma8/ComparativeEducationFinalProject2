@@ -201,6 +201,7 @@ h6 {
     letter-spacing: 1px;
     background: linear-gradient(90deg, #fff, var(--text-muted));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -251,7 +252,8 @@ h6 {
 }
 
 .hero {
-    height: 100vh;
+    min-height: 100vh;
+    padding: 100px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -503,9 +505,10 @@ h6 {
 }
 
 .icon-box {
-    font-size: 2rem;
     margin-bottom: 15px;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .feature-card h3 {
@@ -628,7 +631,6 @@ h6 {
 }
 
 .accordion-icon {
-    font-size: 2rem;
     background: rgba(255, 255, 255, 0.05);
     width: 60px;
     height: 60px;
@@ -673,6 +675,7 @@ h6 {
     margin-bottom: 30px;
     background: linear-gradient(135deg, #fff, var(--text-muted));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -779,7 +782,7 @@ h6 {
     }
 
     .hero h1 {
-        font-size: 2.5rem;
+        font-size: 2.8rem;
         margin-bottom: 15px;
     }
 
@@ -789,10 +792,11 @@ h6 {
 
     .hero .lead {
         font-size: 1rem;
+        padding: 0 15px;
     }
 
     .section {
-        padding: 60px 20px;
+        padding: 80px 20px;
     }
 
     .section-tag {
@@ -801,7 +805,7 @@ h6 {
     }
 
     .content-side h2 {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
     .big-card {
@@ -809,23 +813,89 @@ h6 {
         font-size: 1.1rem;
     }
 
+    .feature-card {
+        padding: 20px;
+    }
+
+    .list-card {
+        padding: 20px;
+    }
+
+    .process-card {
+        padding: 30px 20px;
+    }
+
+    .conclusion-card {
+        padding: 60px 20px;
+    }
+
     .conclusion-card h2 {
         font-size: 2.5rem;
     }
 
     .accordion-item {
-        padding: 15px;
+        padding: 20px;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
-    .feature-card {
-        padding: 20px;
+    .accordion-icon {
+        margin-bottom: 10px;
     }
 
     .blob-bg {
-        width: 100vw;
-        height: 100vw;
+        width: 150vw;
+        height: 150vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 80px 0;
+    }
+
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero h2 {
+        font-size: 1.2rem;
+    }
+
+    .hero-content {
+        padding: 0 15px;
+    }
+
+    .content-side h2 {
+        font-size: 1.8rem;
+    }
+
+    .section-tag {
+        font-size: 2.5rem;
+    }
+
+    .big-card {
+        padding: 25px 15px;
+        font-size: 1rem;
+    }
+
+    .section {
+        padding: 60px 15px;
+    }
+
+    .badge {
+        font-size: 0.75rem;
+        padding: 6px 15px;
+    }
+
+    .btn {
+        padding: 12px 25px;
+        font-size: 0.9rem;
+    }
+
+    .orb {
+        filter: blur(80px);
+        /* Reduce blur on mobile for better performance and visibility */
     }
 }
