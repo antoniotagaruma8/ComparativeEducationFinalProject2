@@ -245,6 +245,99 @@
         </div>
     </section>
 
+    <!-- Comparison Section -->
+    <section id="comparison" class="section split-section">
+        <div class="container">
+            <div class="section-header center reveal">
+                <div class="section-tag highlight-tag" style="color: rgba(236, 72, 153, 0.1);">VS</div>
+                <h2>The Cognitive Load: <span class="highlight">A Practical Example</span></h2>
+                <p class="intro">Let's look at a sample 8th-grade science question to understand the barrier.</p>
+            </div>
+
+            <div class="comparison-grid">
+                <!-- Philippines / English Speaker -->
+                <div class="glass-card comparison-card reveal-left">
+                    <div class="card-header">
+                        <span class="dot blue"></span>
+                        <div class="header-text">
+                            <h3>The Philippines</h3>
+                            <span class="badge sm-badge">Second Language (English)</span>
+                        </div>
+                    </div>
+
+                    <div class="question-box english-box">
+                        <p class="question-text">"Which of the following processes describes the transfer of heat
+                            through a fluid caused by molecular motion?"</p>
+                        <ul class="options-list">
+                            <li>A. Conduction</li>
+                            <li class="correct-answer">B. Convection</li>
+                            <li>C. Radiation</li>
+                            <li>D. Insulation</li>
+                        </ul>
+                    </div>
+
+                    <div class="cognitive-analysis">
+                        <h4>Student's Mental Process:</h4>
+                        <ol>
+                            <li><span class="step-icon">1</span> Decode unfamiliar English vocabulary <em>("fluid",
+                                    "molecular motion")</em>.</li>
+                            <li><span class="step-icon">2</span> Translate the sentence structure into their native
+                                tongue (e.g., Tagalog/Cebuano).</li>
+                            <li><span class="step-icon">3</span> Access scientific knowledge to solve the actual
+                                problem.</li>
+                        </ol>
+                        <div class="load-bar-container">
+                            <span>Cognitive Load</span>
+                            <div class="load-bar high-load">
+                                <div class="fill" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Finland / Native Speaker -->
+                <div class="glass-card comparison-card reveal-right">
+                    <div class="card-header">
+                        <span class="dot pink"></span>
+                        <div class="header-text">
+                            <h3>Finland</h3>
+                            <span class="badge sm-badge accent-badge">Mother Tongue (Finnish)</span>
+                        </div>
+                    </div>
+
+                    <div class="question-box native-box">
+                        <p class="question-text">"Mikä seuraavista prosesseista kuvaa lämmön siirtymistä nesteessä tai
+                            kaasussa molekyylien liikkeen vuoksi?"</p>
+                        <ul class="options-list">
+                            <li>A. Johtuminen</li>
+                            <li class="correct-answer">B. Konvektio</li>
+                            <li>C. Säteily</li>
+                            <li>D. Eristys</li>
+                        </ul>
+                    </div>
+
+                    <div class="cognitive-analysis">
+                        <h4>Student's Mental Process:</h4>
+                        <ol>
+                            <li class="dimmed"><span class="step-icon">✓</span> <del>Decode foreign vocabulary</del>
+                            </li>
+                            <li class="dimmed"><span class="step-icon">✓</span> <del>Translate sentence structure</del>
+                            </li>
+                            <li><span class="step-icon">1</span> Access scientific knowledge to solve the actual
+                                problem.</li>
+                        </ol>
+                        <div class="load-bar-container">
+                            <span>Cognitive Load</span>
+                            <div class="load-bar low-load">
+                                <div class="fill" style="width: 35%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Outcomes -->
     <section id="outcomes" class="section split-section">
         <div class="container format-grid">
@@ -253,9 +346,14 @@
                 <h2>Outcomes: The Results of the Education System</h2>
                 <p class="intro">The results or effects of the education system reflect the efficiency of its contexts,
                     inputs, and processes.</p>
-                <div class="visual-box">
-                    <img src="images/success_chart_neon_1771840271904.png" alt="Educational Outcomes Chart">
-                    <div class="visual-glow"></div>
+
+                <!-- PISA Scores Chart Section -->
+                <div class="chart-container glass-card" style="margin-top: 40px; padding: 20px;">
+                    <h3 style="font-size: 1.2rem; margin-bottom: 15px; text-align: center;">2022 PISA Average Scores
+                        Comparison</h3>
+                    <div style="position: relative; height: 300px; width: 100%;">
+                        <canvas id="pisaChart"></canvas>
+                    </div>
                 </div>
             </div>
             <div class="accordion-side">
@@ -329,6 +427,8 @@
         </div>
     </section>
 
+    <!-- Chart.js Library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="script.js"></script>
 </body>
 

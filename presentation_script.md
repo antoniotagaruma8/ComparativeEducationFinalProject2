@@ -105,7 +105,21 @@ We aren't just looking at test scores in a vacuum. By integrating cross-national
 
 ---
 
-## 12:00 - 14:00 | Outcomes: The Results
+## 12:00 - 13:30 | The Cognitive Load: A Practical Example
+
+**[ACTION]** Scroll down to the "VS" Comparison section. Hover your mouse over the blue "The Philippines" card on the left.
+
+**Presenter:**
+"Let's look at a practical example. Here is a sample 8th-grade science question. A Filipino student must first decode unfamiliar English vocabulary—like 'fluid' or 'molecular motion'. Then, they mentally translate that sentence structure into their native tongue, perhaps Tagalog or Cebuano. *Only then* can they access their scientific knowledge to actually solve the problem. As you can see, the cognitive load is immense."
+
+**[ACTION]** Move your hover to the pink "Finland" card on the right. Point out the short cognitive load bar at the bottom.
+
+**Presenter:**
+"Now contrast this with a student in Finland, taking the exact same test, but in Finnish. They bypass the decoding and translation phases entirely. They immediately access their scientific knowledge to solve the problem. The cognitive load is minimal, allowing their true aptitude to shine through."
+
+---
+
+## 13:30 - 14:30 | Outcomes: The Results
 
 **[ACTION]** Scroll to the "Outcomes" section with the accordion-style boxes. 
 
@@ -129,7 +143,20 @@ We aren't just looking at test scores in a vacuum. By integrating cross-national
 
 ---
 
-## 14:00 - 15:00 | Conclusion & Wrap Up
+## 14:30 - 15:00 | The Data: 2022 PISA Scores
+
+**[ACTION]** Look to the left side of the 'Outcomes' section where the new interactive PISA Chart is. Slowly hover your mouse over the bars to trigger the Chart.js tooltips.
+
+**Presenter:**
+"The data backs this up. If we look at the 2022 PISA average scores, the gap is stark. 
+
+*(Hover over the pink/red bars)* The Philippines, taking the test in English, sits significantly below the OECD average. Notice that other countries where English is widespread as a second language but not the mother tongue—like Malaysia and Malta—also sit below the OECD average when taking the PISA in English.
+
+*(Hover over the green and blue bars)* Meanwhile, look at the countries that test students in their mother tongue. Not just European nations like Finland and Estonia, but also Asian powerhouses like Japan and Macao. They consistently perform near or far above the OECD average. The linguistic barrier is not just a theory; it is quantifiable on a global scale."
+
+---
+
+## 15:00 - 15:30 | Conclusion & Wrap Up
 
 **[ACTION]** Scroll to the very bottom "Conclusion" section. Let the large, colorful animated blob background draw the eye.
 
