@@ -1,4 +1,6 @@
 # Presentation Script: Lost in Translation (15 Minutes)
+**Authors:** Alijah, Antonio, Dodrothy, & Kay
+**Institution:** Universidad de Alcala - Instituto Franklin
 
 This script is designed to run synchronously with your interactive website. Pay close attention to the **[ACTION]** cues, which tell you when to scroll or hover your mouse to maximize the visual impact of the website's new features.
 
@@ -22,18 +24,18 @@ Welcome to our project, *Lost in Translation*. Today we will explore the impact 
 
 ---
 
-## 2:00 - 3:30 | The Analytical Framework
+## 2:00 - 4:00 | The Analytical Framework
 
 **[ACTION]** Ensure the "Analytical Framework" glass card is centered on screen. Slowly move your mouse in a circle *inside* the card to show off the mouse-tracking spotlight glow effect.
 
 **Presenter:**
-"To ensure our comparative analysis is both structured and comprehensive, we utilize the Bray & Thomas framework from 1995. 
+"To ensure our comparative analysis is both structured and comprehensive, we utilize the Bray & Thomas framework from 1995 (Bray & Thomas, 1995). 
 
 We aren't just looking at test scores in a vacuum. By integrating cross-national comparison and comparative policy analysis, we are examining how entire national education systems operate. We will break this down into four key areas: the Context they exist in, the Inputs they receive, the Processes they use, and finally, the Outcomes they produce."
 
 ---
 
-## 3:30 - 6:30 | Context: The Environment
+## 4:00 - 6:30 | Context: The Environment
 
 **[ACTION]** Scroll down smoothly to the "Context" section. Ensure the global map image is visible on the left, and the three cards are on the right. 
 
@@ -57,31 +59,31 @@ We aren't just looking at test scores in a vacuum. By integrating cross-national
 
 ---
 
-## 6:30 - 8:30 | Inputs: Resources Injected
+## 6:30 - 9:00 | Inputs: Resources Injected
 
 **[ACTION]** Scroll down to the "Inputs" section. This section is reversed, with cards on the left.
 
 **Presenter:**
-"Moving to Inputs. The quality of educational delivery depends directly on the resources allocated to the system."
+"Moving to Inputs. The quality of educational delivery depends directly on the resources—and the environment—injected into the system."
 
-**[ACTION]** Hover over the **Material Resources** (Pink dot) card.
+**[ACTION]** Hover over the **Socioeconomic Status** (Pink dot) card.
 
 **Presenter:**
-"**Material Resources:** There is a critical gap here. We lack textbooks and educational materials translated into local dialects, especially for complex subjects like Mathematics and Science."
+"**Socioeconomic Status (SES):** We must acknowledge that lower SES students often have less exposure to English outside of school compared to their wealthier peers. When the standardized test is strictly in English, this socioeconomic gap is multiplied by a linguistic disadvantage, effectively punishing these students not just for poverty, but for a lack of English immersion at home."
 
 **[ACTION]** Hover over the **Human Resources** (Blue dot) card.
 
 **Presenter:**
-"**Human Resources:** Our teachers are often put in a difficult position. They require specialized training to effectively translate complex English concepts into the mother tongue on the fly during classroom instruction."
+"**Human Resources & Teacher Training:** We also need to consider our educators. Teachers themselves may struggle with English proficiency. If a science teacher is anxious about communicating complex concepts in an unnatural language, pedagogical quality drops. The focus shifts from guaranteeing 'scientific understanding' merely to 'English translation survival'."
 
-**[ACTION]** Hover over the **Financial Resources** (Purple dot) card.
+**[ACTION]** Hover over the **Material Resources** (Purple dot) card.
 
 **Presenter:**
-"**Financial Resources:** Ultimately, true localization efforts require significant government funding to ensure equitable access to quality education, funding which is often lacking."
+"**Material Resources:** Finally, a critical gap exists in educational materials. Developing comprehensive textbooks translated into local dialects requires deep financial and time investments that many developing nations simply struggle to allocate."
 
 ---
 
-## 8:30 - 12:00 | Processes: Delivery and Assessment
+## 9:00 - 11:30 | Processes: Delivery and Assessment
 
 **[ACTION]** Scroll down to the dark "Processes" grid displaying the three icons. 
 
@@ -105,7 +107,7 @@ We aren't just looking at test scores in a vacuum. By integrating cross-national
 
 ---
 
-## 12:00 - 13:30 | The Cognitive Load: A Practical Example
+## 11:30 - 13:00 | The Cognitive Load: A Practical Example
 
 **[ACTION]** Scroll down to the "VS" Comparison section. Hover your mouse over the blue "The Philippines" card on the left.
 
@@ -119,49 +121,56 @@ We aren't just looking at test scores in a vacuum. By integrating cross-national
 
 ---
 
-## 13:30 - 14:30 | Outcomes: The Results
+## 13:00 - 13:45 | Outcomes & Data
 
-**[ACTION]** Scroll to the "Outcomes" section with the accordion-style boxes. 
-
-**Presenter:**
-"So, what are the Outcomes of these mismatched contexts, inputs, and processes?"
-
-**[ACTION]** Hover over the top **Student Achievement** box.
+**[ACTION]** Scroll to the "Outcomes" section with the accordion-style boxes. Hover over the three boxes sequentially as you speak.
 
 **Presenter:**
-"**Student Achievement:** Unsurprisingly, academic performance and literacy levels in the Philippines show a direct, negative correlation with the foreign language used in standardized assessments."
+"So, what are the Outcomes? **Student Achievement** drops—academic performance shows a direct, negative correlation with the foreign language used in assessments. Because of this foundational gap, **Economic Outcomes** and workforce development are compromised. Ultimately, lower achievement limits global employment and civic engagement, creating poor **Social Outcomes**."
 
-**[ACTION]** Hover over the middle **Economic Outcomes** box.
-
-**Presenter:**
-"**Economic Outcomes:** The economic impact of education is hindered. When workforce development is compromised by these foundational learning gaps, the country's economic potential is capped."
-
-**[ACTION]** Hover over the bottom **Social Outcomes** box.
+**[ACTION]** Look to the left side of the 'Outcomes' section where the new interactive PISA Chart is. Click the "Expand" icon to open the large Modal Chart. Slowly hover your mouse over the legend to isolate the specific countries as you speak.
 
 **Presenter:**
-"**Social Outcomes:** Ultimately, lower academic achievement limits global employment opportunities and civic engagement for a large portion of the population."
+"The data backs this up. Looking at the 2022 PISA average scores (OECD, 2023), the gap is stark. 
+
+*(Hover over 'Philippines', 'Malaysia', 'Malta' in legend)* Countries where English is widespread as a second language but not the mother tongue sit below the OECD average when taking the PISA in English.
+
+*(Hover over 'Japan', 'Macao', 'Finland', 'Estonia' in legend)* Meanwhile, countries that test students in their mother tongue consistently perform near or far above the OECD average. The linguistic barrier is quantifiable on a global scale."
+
+**[ACTION]** Click the 'X' or press Escape to close the chart modal.
 
 ---
 
-## 14:30 - 15:00 | The Data: 2022 PISA Scores
+## 13:45 - 14:30 | What If? The Ripple Effect
 
-**[ACTION]** Look to the left side of the 'Outcomes' section where the new interactive PISA Chart is. Slowly hover your mouse over the bars to trigger the Chart.js tooltips.
+**[ACTION]** Scroll down to the new "What If: The Ripple Effect" section. 
 
 **Presenter:**
-"The data backs this up. If we look at the 2022 PISA average scores, the gap is stark. 
+"This brings us to a crucial question using the Bray & Thomas framework: *What if* the Philippines removed this language barrier and climbed the PISA ranks? What are the realistic projections?"
 
-*(Hover over the pink/red bars)* The Philippines, taking the test in English, sits significantly below the OECD average. Notice that other countries where English is widespread as a second language but not the mother tongue—like Malaysia and Malta—also sit below the OECD average when taking the PISA in English.
+**[ACTION]** Hover over the **Cultural Shift** card.
 
-*(Hover over the green and blue bars)* Meanwhile, look at the countries that test students in their mother tongue. Not just European nations like Finland and Estonia, but also Asian powerhouses like Japan and Macao. They consistently perform near or far above the OECD average. The linguistic barrier is not just a theory; it is quantifiable on a global scale."
+**Presenter:**
+"**Culturally**, the stigma surrounding local dialects in academic settings would diminish. Intelligence would no longer be exclusively associated with English fluency, fostering a stronger national identity and intellectual confidence."
+
+**[ACTION]** Hover over the **Political Capital** card.
+
+**Presenter:**
+"**Politically**, a surge in PISA rankings validates localized education policies. The government would gain the political capital to secure higher educational budgets and attract international investments, shifting the national focus from 'basic, language-based outsourcing' to 'high-skilled innovation'."
+
+**[ACTION]** Hover over the **Social Mobility** card.
+
+**Presenter:**
+"**Socially**, with foundational science and math skills mastered in their mother tongue, lower SES students could compete more equitably for STEM scholarships and university admissions, significantly flattening the social stratification curve."
 
 ---
 
-## 15:00 - 15:30 | Conclusion & Wrap Up
+## 14:30 - 15:00 | Conclusion & Wrap Up
 
 **[ACTION]** Scroll to the very bottom "Conclusion" section. Let the large, colorful animated blob background draw the eye.
 
 **Presenter:**
-"To conclude our multidimensional comparison: it becomes glaringly evident that a student's capacity to learn and perform is intrinsically linked to the language of instruction and assessment. 
+"To conclude our multidimensional comparison: it is glaringly evident that a student's capacity to learn and perform is intrinsically linked to the language of instruction and assessment. 
 
 If we want to foster a truly global, equitable perspective on education, our policies must adapt. We must ensure that assessments act as a bridge to demonstrating knowledge, **not a linguistic barrier.**"
 
@@ -175,4 +184,12 @@ If we want to foster a truly global, equitable perspective on education, our pol
 ### 💡 General Tips for the Presenter:
 * **The Spotlight is your Laser Pointer:** You don't need a physical laser pointer. Because we added the mouse-tracking glow to the cards, simply hovering your mouse over the card you are currently reading actively draws the audience's eye directly to it.
 * **Keep your mouse smooth:** Don't wiggle the mouse erratically. Move it deliberately from card to card in sync with your speech.
-* **Master the timing:** The total presentation should take about 15 minutes. Spend the most time (around 3.5 minutes) on the "Processes" section, as the "Assessment/Cognitive Load" argument is the most important part of your thesis.
+* **Master the timing:** This presentation is strictly 15 minutes. Use a timer during practice to ensure you allocate the recommended times to each section, particularly the heavily weighted "Processes" and "Data" sections.
+
+---
+
+## References
+
+Bray, M., & Thomas, R. M. (1995). Levels of comparison in educational studies: Different insights from different literatures and the value of multilevel analyses. *Harvard Educational Review*, 65(3), 472-491. https://doi.org/10.17763/haer.65.3.g3228437224v4877
+
+OECD. (2023). *PISA 2022 Results (Volume I): The State of Learning and Equity in Education*. PISA, OECD Publishing, Paris. https://doi.org/10.1787/53f23881-en

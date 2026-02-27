@@ -14,7 +14,25 @@
 </head>
 
 <body>
+    <!-- Scroll Progress Bar -->
+    <div id="progressBar"></div>
+
     <div id="noise-overlay"></div>
+
+    <!-- Floating Navigation Menu -->
+    <nav class="glass-nav" id="mainNav">
+        <div class="logo">Lost in Translation</div>
+        <div class="nav-links">
+            <a href="#hero">Start</a>
+            <a href="#framework">Framework</a>
+            <a href="#context">Context</a>
+            <a href="#inputs">Inputs</a>
+            <a href="#processes">Processes</a>
+            <a href="#outcomes">Outcomes</a>
+            <a href="#projections">Projections</a>
+            <a href="#conclusion">Conclusion</a>
+        </div>
+    </nav>
 
     <!-- Ambient Background Orbs for Dynamic Lighting -->
     <div class="ambient-orbs">
@@ -42,15 +60,89 @@
     </header>
 
     <section id="framework" class="section dark-section">
-        <div class="container reveal">
-            <div class="section-header">
+        <div class="container">
+            <div class="section-header center reveal">
                 <h2>Analytical Framework: <span class="highlight">Bray & Thomas (1995)</span></h2>
+                <p class="intro" style="max-width: 800px; margin: 0 auto;">To ensure a structured and comprehensive
+                    comparative analysis, this research utilizes the Bray & Thomas framework (Bray & Thomas, 1995). By
+                    integrating a
+                    cross-national comparison and a comparative policy analysis, we examine how national education
+                    systems operate and are shaped by external and internal factors.</p>
             </div>
-            <div class="glass-card big-card">
-                <p>To ensure a structured and comprehensive comparative analysis, this research utilizes the Bray &
-                    Thomas framework. By integrating a cross-national comparison and a comparative policy analysis, we
-                    examine how national education systems operate and are shaped by external and internal factors.</p>
-                <div class="glow-element"></div>
+
+            <div class="framework-visualization reveal-up" style="--delay: 0.2s">
+                <!-- Central Node -->
+                <div class="framework-core glass-card">
+                    <div class="core-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+                            stroke="url(#gradient-core)" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <defs>
+                                <linearGradient id="gradient-core" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="var(--primary-light)" />
+                                    <stop offset="100%" stop-color="var(--secondary)" />
+                                </linearGradient>
+                            </defs>
+                            <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                            <path d="M2 17l10 5 10-5" />
+                            <path d="M2 12l10 5 10-5" />
+                        </svg>
+                    </div>
+                    <h3>National Education Systems</h3>
+                    <div class="core-glow"></div>
+                </div>
+
+                <!-- Orbiting / Connected Elements -->
+                <div class="framework-nodes">
+                    <div class="f-node node-external glass-card">
+                        <div class="node-icon pink"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10" />
+                                <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+                                <path d="M2 12h20" />
+                            </svg></div>
+                        <h4>External Factors</h4>
+                        <p>Culture, Politics, Demographics</p>
+                    </div>
+
+                    <div class="f-node node-internal glass-card">
+                        <div class="node-icon blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                            </svg></div>
+                        <h4>Internal Factors</h4>
+                        <p>Curriculum, Finance, Pedagogy</p>
+                    </div>
+
+                    <div class="f-node node-cross glass-card">
+                        <div class="node-icon accent"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+                                <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
+                                <line x1="12" y1="22.08" x2="12" y2="12" />
+                            </svg></div>
+                        <h4>Cross-National Comparison</h4>
+                        <p>Philippines vs. PISA Leaders</p>
+                    </div>
+
+                    <div class="f-node node-policy glass-card">
+                        <div class="node-icon purple"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                                <polyline points="14 2 14 8 20 8" />
+                                <line x1="16" y1="13" x2="8" y2="13" />
+                                <line x1="16" y1="17" x2="8" y2="17" />
+                                <polyline points="10 9 9 9 8 9" />
+                            </svg></div>
+                        <h4>Comparative Policy</h4>
+                        <p>Decentralization vs. Bilingual</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -138,26 +230,30 @@
                 <div class="glass-card list-card reveal-up" style="--delay: 0.1s">
                     <div class="card-header">
                         <span class="dot pink"></span>
-                        <h3>Material Resources</h3>
+                        <h3>Socioeconomic Status (SES)</h3>
                     </div>
-                    <p>A critical gap exists in the availability of textbooks and educational materials translated into
-                        local dialects for complex subjects like Mathematics and Science.</p>
+                    <p>Lower SES students often have less exposure to English outside of school compared to their
+                        wealthier peers. When the test is in English, this socioeconomic gap is multiplied by a
+                        linguistic disadvantage, punishing students not just for poverty, but for lack of English
+                        immersion.</p>
                 </div>
                 <div class="glass-card list-card reveal-up" style="--delay: 0.2s">
                     <div class="card-header">
                         <span class="dot blue"></span>
-                        <h3>Human Resources</h3>
+                        <h3>Human Resources & Teacher Training</h3>
                     </div>
-                    <p>Teachers often require specialized training to effectively translate complex English concepts
-                        into the mother tongue during classroom instruction.</p>
+                    <p>Teachers themselves may struggle with English proficiency. If a science teacher is anxious about
+                        teaching complex concepts in an unnatural language, pedagogical quality drops, shifting focus
+                        from "scientific understanding" to "English translation survival."</p>
                 </div>
                 <div class="glass-card list-card reveal-up" style="--delay: 0.3s">
                     <div class="card-header">
                         <span class="dot purple"></span>
-                        <h3>Financial Resources</h3>
+                        <h3>Material Resources</h3>
                     </div>
-                    <p>Government funding must adequately support localization efforts to ensure equitable access to
-                        quality education.</p>
+                    <p>A critical gap exists in the availability of educational materials. Developing comprehensive
+                        textbooks translated into local dialects requires deep financial and time investments that many
+                        developing nations struggle to allocate.</p>
                 </div>
             </div>
         </div>
@@ -266,30 +362,41 @@
                     </div>
 
                     <div class="question-box english-box">
-                        <p class="question-text">"Which of the following processes describes the transfer of heat
+                        <p class="question-text" id="phQuestion">"Which of the following processes describes the
+                            transfer of heat
                             through a fluid caused by molecular motion?"</p>
                         <ul class="options-list">
-                            <li>A. Conduction</li>
-                            <li class="correct-answer">B. Convection</li>
-                            <li>C. Radiation</li>
-                            <li>D. Insulation</li>
+                            <li id="phOpt1">A. Conduction</li>
+                            <li class="correct-answer" id="phOpt2">B. Convection</li>
+                            <li id="phOpt3">C. Radiation</li>
+                            <li id="phOpt4">D. Insulation</li>
                         </ul>
                     </div>
 
-                    <div class="cognitive-analysis">
+                    <button class="btn secondary-btn" id="translateBtn" onclick="toggleTranslation()"
+                        style="align-self: flex-start; padding: 8px 16px; font-size: 0.85rem; border: 1px solid var(--primary-light); background: transparent; color: var(--text-color); border-radius: 8px;">Translate
+                        to Mother Tongue (Tagalog)</button>
+
+                    <div class="cognitive-analysis" id="phCognitiveAnalysis">
                         <h4>Student's Mental Process:</h4>
-                        <ol>
-                            <li><span class="step-icon">1</span> Decode unfamiliar English vocabulary <em>("fluid",
-                                    "molecular motion")</em>.</li>
-                            <li><span class="step-icon">2</span> Translate the sentence structure into their native
+                        <ol id="phProcessingSteps">
+                            <li id="phStep1"><span class="step-icon">1</span> Decode unfamiliar English vocabulary
+                                <em>("fluid",
+                                    "molecular motion")</em>.
+                            </li>
+                            <li id="phStep2"><span class="step-icon">2</span> Translate the sentence structure into
+                                their native
                                 tongue (e.g., Tagalog/Cebuano).</li>
-                            <li><span class="step-icon">3</span> Access scientific knowledge to solve the actual
+                            <li id="phStep3"><span class="step-icon">3</span> Access scientific knowledge to solve the
+                                actual
                                 problem.</li>
                         </ol>
                         <div class="load-bar-container">
                             <span>Cognitive Load</span>
-                            <div class="load-bar high-load">
-                                <div class="fill" style="width: 90%;"></div>
+                            <div class="load-bar high-load" id="phLoadBar">
+                                <div class="fill" id="phLoadFill"
+                                    style="width: 90%; transition: width 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275), background-color 0.8s ease;">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -348,11 +455,19 @@
                     inputs, and processes.</p>
 
                 <!-- PISA Scores Chart Section -->
-                <div class="chart-container glass-card" style="margin-top: 40px; padding: 20px;">
+                <div class="chart-container glass-card clickable-chart" style="margin-top: 40px; padding: 20px;"
+                    onclick="openChartModal()">
                     <h3 style="font-size: 1.2rem; margin-bottom: 15px; text-align: center;">2022 PISA Average Scores
-                        Comparison</h3>
+                        Comparison (OECD, 2023)</h3>
                     <div style="position: relative; height: 300px; width: 100%;">
                         <canvas id="pisaChart"></canvas>
+                        <div class="expand-icon" title="Click to enlarge">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                            </svg>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -411,6 +526,78 @@
         </div>
     </section>
 
+    <!-- What If: Projections -->
+    <section id="projections" class="section split-section reverse" style="background: rgba(15, 23, 42, 0.4);">
+        <div class="container">
+            <div class="section-header center reveal">
+                <div
+                    style="display: inline-block; padding: 5px 15px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; letter-spacing: 1px; margin-bottom: 20px; background: rgba(52, 211, 153, 0.1); color: var(--accent);">
+                    WHAT IF</div>
+                <h2>The Ripple Effect: <span class="highlight">A Higher PISA Ranking</span></h2>
+                <p class="intro">Using the Bray & Thomas framework, what if the Philippines removed the language barrier
+                    and climbed the PISA ranks? Here are realistic projections across different contexts.</p>
+            </div>
+
+            <div class="cards-side"
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px; padding: 0;">
+
+                <div class="feature-card reveal-up" style="--delay: 0.1s; border-color: rgba(236, 72, 153, 0.2);">
+                    <div class="icon-box" style="background: rgba(236, 72, 153, 0.1);">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                            stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+                            <path d="M2 12h20" />
+                        </svg>
+                    </div>
+                    <h3 style="color: var(--primary);">Cultural Shift</h3>
+                    <p style="font-size: 0.9rem;"><strong>Projection:</strong> The stigma surrounding local dialects in
+                        academic settings would diminish. Culturally, intelligence would no longer be exclusively
+                        associated with English fluency, fostering a stronger national identity and intellectual
+                        confidence among students.</p>
+                </div>
+
+                <div class="feature-card reveal-up" style="--delay: 0.2s; border-color: rgba(6, 182, 212, 0.2);">
+                    <div class="icon-box" style="background: rgba(6, 182, 212, 0.1);">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                            stroke="var(--secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2 20h20" />
+                            <path d="M4 20V8" />
+                            <path d="M8 20V8" />
+                            <path d="M12 20V8" />
+                            <path d="M16 20V8" />
+                            <path d="M20 20V8" />
+                            <path d="M2 8l10-6 10 6" />
+                        </svg>
+                    </div>
+                    <h3 style="color: var(--secondary);">Political Capital</h3>
+                    <p style="font-size: 0.9rem;"><strong>Projection:</strong> A surge in PISA rankings would validate
+                        localized education policies. The government would gain the political capital to secure higher
+                        educational budgets (Inputs) and attract international investments, shifting focus from "basic,
+                        language-based outsourcing" to "high-skilled innovation."</p>
+                </div>
+
+                <div class="feature-card reveal-up" style="--delay: 0.3s; border-color: rgba(52, 211, 153, 0.2);">
+                    <div class="icon-box" style="background: rgba(52, 211, 153, 0.1);">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                            stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                        </svg>
+                    </div>
+                    <h3 style="color: var(--accent);">Social Mobility</h3>
+                    <p style="font-size: 0.9rem;"><strong>Projection:</strong> With foundational science and math skills
+                        mastered in their mother tongue, lower SES students could compete more equitably for STEM
+                        scholarships and university admissions, significantly flattening the social stratification
+                        curve.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
     <!-- Conclusion -->
     <section id="conclusion" class="section hero conclusion-section">
         <div class="blob-bg"></div>
@@ -426,6 +613,57 @@
             </div>
         </div>
     </section>
+
+    <!-- References -->
+    <section id="references" class="section dark-section" style="padding: 60px 20px; min-height: auto;">
+        <div class="container reveal">
+            <div class="glass-card" style="padding: 40px; text-align: left;">
+                <h2 style="font-size: 1.8rem; margin-bottom: 20px;">References</h2>
+                <div style="font-size: 0.95rem; color: var(--text-muted); line-height: 1.8;">
+                    <p style="margin-bottom: 15px; padding-left: 36px; text-indent: -36px;">
+                        Bray, M., & Thomas, R. M. (1995). Levels of comparison in educational studies: Different
+                        insights from different literatures and the value of multilevel analyses. <em>Harvard
+                            Educational Review</em>, <em>65</em>(3), 472–491.
+                        https://doi.org/10.17763/haer.65.3.g3228437224v4877
+                    </p>
+                    <p style="margin-bottom: 15px; padding-left: 36px; text-indent: -36px;">
+                        OECD. (2023). <em>PISA 2022 Results (Volume I): The State of Learning and Equity in
+                            Education</em>. PISA, OECD Publishing, Paris. https://doi.org/10.1787/53f23881-en
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+        style="border-top: 1px solid var(--glass-border); padding: 40px 20px; text-align: center; margin-top: 50px;">
+        <div class="container">
+            <h3
+                style="font-family: 'Outfit'; font-size: 1.5rem; margin-bottom: 10px; background: linear-gradient(90deg, #fff, var(--text-muted)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">
+                Alijah, Antonio, Dodrothy, & Kay</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 20px;">Universidad de Alcala -
+                Instituto Franklin<br>A Comparative Education Final Project</p>
+            <p style="color: rgba(255,255,255,0.3); font-size: 0.8rem; margin-top: 30px;">&copy; 2026. All rights
+                reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Chart Modal -->
+    <div id="chartModalBox" class="chart-modal-overlay">
+        <div class="chart-modal-content glass-card">
+            <button class="modal-close-btn" onclick="closeChartModal()">&times;</button>
+            <h2 style="margin-bottom: 10px; text-align: center; color: var(--text-color);">2022 PISA Average Scores
+                Comparison</h2>
+            <p style="text-align: center; color: var(--text-muted); margin-bottom: 30px; font-size: 0.95rem;">
+                Hover over a country's name in the legend to isolate its data. This chart illustrates the stark
+                difference in outcomes between ESL test-takers and mother-tongue tested students.
+            </p>
+            <div style="position: relative; height: 60vh; width: 100%;">
+                <canvas id="pisaModalChart"></canvas>
+            </div>
+        </div>
+    </div>
 
     <!-- Chart.js Library -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
