@@ -157,56 +157,56 @@ function createPisaChart(canvasId) {
                 {
                     label: 'Philippines (ESL / English Test)',
                     data: [355, 356, 347],
-                    backgroundColor: 'rgba(236, 72, 153, 0.9)', // Neon Pink
-                    borderColor: 'rgba(236, 72, 153, 1)',
+                    backgroundColor: 'rgba(230, 25, 75, 0.9)', // Deep Red
+                    borderColor: 'rgba(230, 25, 75, 1)',
                     borderWidth: 1,
                     borderRadius: 4
                 },
                 {
                     label: 'Malaysia (ESL / English Test)',
                     data: [409, 416, 388],
-                    backgroundColor: 'rgba(244, 114, 182, 0.5)', // Muted Pink
-                    borderColor: 'rgba(244, 114, 182, 1)',
+                    backgroundColor: 'rgba(60, 180, 75, 0.9)', // Strong Green
+                    borderColor: 'rgba(60, 180, 75, 1)',
                     borderWidth: 1,
                     borderRadius: 4
                 },
                 {
                     label: 'Malta (ESL / English Test)',
                     data: [466, 466, 445],
-                    backgroundColor: 'rgba(251, 113, 133, 0.5)', // Muted Red-Pink
-                    borderColor: 'rgba(251, 113, 133, 1)',
+                    backgroundColor: 'rgba(255, 225, 25, 0.9)', // Bright Yellow
+                    borderColor: 'rgba(255, 225, 25, 1)',
                     borderWidth: 1,
                     borderRadius: 4
                 },
                 {
                     label: 'Japan (Mother Tongue Asian)',
                     data: [536, 547, 516],
-                    backgroundColor: 'rgba(16, 185, 129, 0.8)', // Emerald Green
-                    borderColor: 'rgba(16, 185, 129, 1)',
+                    backgroundColor: 'rgba(67, 99, 216, 0.9)', // Deep Blue
+                    borderColor: 'rgba(67, 99, 216, 1)',
                     borderWidth: 1,
                     borderRadius: 4
                 },
                 {
                     label: 'Macao (Mother Tongue Asian)',
                     data: [552, 543, 510],
-                    backgroundColor: 'rgba(52, 211, 153, 0.6)', // Lighter Emerald
-                    borderColor: 'rgba(52, 211, 153, 1)',
+                    backgroundColor: 'rgba(245, 130, 49, 0.9)', // Strong Orange
+                    borderColor: 'rgba(245, 130, 49, 1)',
                     borderWidth: 1,
                     borderRadius: 4
                 },
                 {
                     label: 'Finland (Mother Tongue EU)',
                     data: [484, 511, 490],
-                    backgroundColor: 'rgba(6, 182, 212, 0.8)', // Cyan
-                    borderColor: 'rgba(6, 182, 212, 1)',
+                    backgroundColor: 'rgba(145, 30, 180, 0.9)', // Deep Purple
+                    borderColor: 'rgba(145, 30, 180, 1)',
                     borderWidth: 1,
                     borderRadius: 4
                 },
                 {
                     label: 'Estonia (Mother Tongue EU)',
                     data: [510, 526, 511],
-                    backgroundColor: 'rgba(99, 102, 241, 0.8)', // Indigo
-                    borderColor: 'rgba(99, 102, 241, 1)',
+                    backgroundColor: 'rgba(66, 212, 244, 0.9)', // Light Cyan
+                    borderColor: 'rgba(66, 212, 244, 1)',
                     borderWidth: 1,
                     borderRadius: 4
                 },
